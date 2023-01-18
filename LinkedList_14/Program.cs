@@ -53,6 +53,16 @@
             Console.WriteLine("Displaying After Deleting Last Value");
             deleteLast.RemovaLastNode();
             deleteLast.Display();
+            Console.WriteLine("----------------------------------------");
+            //UC_7
+            FindNodeUC_7 findNode = new FindNodeUC_7();
+            Console.WriteLine("Displaying Finding Node");
+            findNode.Add(56);
+            findNode.Add(30);
+            findNode.Add(70);
+            findNode.Search(30);
+            findNode.Display();
+
 
 
         }
