@@ -62,6 +62,16 @@
             findNode.Add(70);
             findNode.Search(30);
             findNode.Display();
+            Console.WriteLine("----------------------------------------");
+            //UC_8
+            InsertValueUC_8 insertValue = new InsertValueUC_8();
+            insertValue.Add(56);
+            insertValue.Add(30);
+            insertValue.Add(40);
+            insertValue.Add(70);
+            insertValue.Display();
+
+
 
 
 
