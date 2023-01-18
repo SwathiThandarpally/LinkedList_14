@@ -35,6 +35,15 @@
             inserting.InsertAtParticularPosition(2,30);
             inserting.Display();
             Console.ReadKey();
+            Console.WriteLine("----------------------------------------");
+            //UC_5
+            DeleteFirstValueUC_5 deleteFirst = new DeleteFirstValueUC_5();
+            deleteFirst.Add(56);
+            deleteFirst.Add(30);
+            deleteFirst.Add(70);
+            Console.WriteLine("Displaying After Deleting First Value");
+            deleteFirst.RemoveFirstNode();
+            deleteFirst.Display();
         }
     }
 }
