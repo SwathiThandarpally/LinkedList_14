@@ -27,6 +27,14 @@
             appending.Append(30);
             appending.Append(70);
             appending.Display();
+            Console.WriteLine("----------------------------------------");
+            //UC_4
+            InsertingBetweenUC_4 inserting = new InsertingBetweenUC_4();
+            inserting.Add(56);
+            inserting.Add(70);
+            inserting.InsertAtParticularPosition(2,30);
+            inserting.Display();
+            Console.ReadKey();
         }
     }
 }
