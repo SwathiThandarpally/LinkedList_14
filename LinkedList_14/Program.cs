@@ -70,11 +70,21 @@
             insertValue.Add(40);
             insertValue.Add(70);
             insertValue.Display();
-
-
-
-
-
+            Console.WriteLine("----------------------------------------");
+            //UC_9
+            DeleteValueUC_9 deleteValue = new DeleteValueUC_9();
+            deleteValue.Add(56);
+            deleteValue.Add(30);
+            deleteValue.Add(40);
+            deleteValue.Add(70);
+            deleteValue.Display();
+            Console.Write("Enter The Element You Have To Delete:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Enter The Previous Element Of That Element You Have To Delete:");
+            int b = Convert.ToInt32(Console.ReadLine());
+            deleteValue.Delete(b, a);
+            deleteValue.Display();
+            deleteValue.size();
         }
     }
 }
