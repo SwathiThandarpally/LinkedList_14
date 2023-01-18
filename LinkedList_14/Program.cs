@@ -44,6 +44,17 @@
             Console.WriteLine("Displaying After Deleting First Value");
             deleteFirst.RemoveFirstNode();
             deleteFirst.Display();
+            Console.WriteLine("----------------------------------------");
+            //UC_6
+            DeleteLastValueUC_6 deleteLast = new DeleteLastValueUC_6();
+            deleteLast.Add(56);
+            deleteLast.Add(30);
+            deleteLast.Add(70);
+            Console.WriteLine("Displaying After Deleting Last Value");
+            deleteLast.RemovaLastNode();
+            deleteLast.Display();
+
+
         }
     }
 }
