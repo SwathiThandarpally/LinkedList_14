@@ -20,6 +20,13 @@
             adding.add(56);
             adding.Display();
             Console.WriteLine("Displaying After Adding");
+            Console.WriteLine("----------------------------------------");
+            //UC_3
+            AppendingUC_3 appending = new AppendingUC_3();
+            appending.Append(56);
+            appending.Append(30);
+            appending.Append(70);
+            appending.Display();
         }
     }
 }
