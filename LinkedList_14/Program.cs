@@ -10,6 +10,16 @@
             simple.Add(56);
             simple.Add(30);
             simple.Add(70);
+            Console.WriteLine("----------------------------------------");
+            //UC_2
+            AddingLinkedListUC_2 adding = new AddingLinkedListUC_2();
+            adding.add(70);
+            Console.WriteLine("Inserting 30");
+            adding.add(30);
+            Console.WriteLine("Inserting 56");
+            adding.add(56);
+            adding.Display();
+            Console.WriteLine("Displaying After Adding");
         }
     }
 }
